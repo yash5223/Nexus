@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design Mastery | Healthfy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+      :root {
+        --primary-color: #28bf96;
+        --primary-color-dark: #209677;
+        --text-dark: #111827;
+        --text-light: #6b7280;
+        --white: #ffffff;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .btn {
+        padding: 1rem 2rem;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        color: var(--white);
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background-color: var(--primary-color-dark);
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+/* Box Styling */
+.output-box {
+  background-color: #f7fafc;
+  border: 2px solid #e2e8f0;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.output-box h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.output-box p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+.output-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.output-box ul li {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.output-box ul li strong {
+  color: var(--primary-color);
+}
+
+.output-box button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.output-box button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+/* Make box more user-friendly on mobile */
+@media (max-width: 600px) {
+  .output-box {
+    padding: 1rem;
+  }
+
+  .output-box h2 {
+    font-size: 1.3rem;
+  }
+
+  .output-box p,
+  .output-box ul li {
+    font-size: 1rem;
+  }
+
+  .output-box button {
+    width: 100%;
+    padding: 1.25rem 0;
+  }
+}
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav {
+        padding: 2rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .nav__logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+
+      .nav__links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .link a {
+        text-decoration: none;
+        color: var(--text-light);
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .link a:hover {
+        color: var(--primary-color);
+      }
+
+      .header {
+        padding: 0 1rem;
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+      }
+
+      .content h1 {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--text-dark);
+      }
+
+      .content h1 span {
+        font-weight: 400;
+      }
+
+      .content p {
+        margin-bottom: 2rem;
+        color: var(--text-light);
+        line-height: 1.75rem;
+      }
+
+      .image {
+        position: relative;
+        text-align: center;
+        isolation: isolate;
+      }
+
+      .image__bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 450px;
+        width: 450px;
+        background-color: var(--primary-color);
+        border-radius: 100%;
+        z-index: -1;
+      }
+
+      .image img {
+        width: 100%;
+        max-width: 475px;
+      }
+
+      .image__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-align: left;
+        background-color: var(--white);
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .image__content__1 {
+        transform: translate(calc(-50% - 12rem), calc(-50% - 8rem));
+      }
+
+      .image__content__1 span {
+        padding: 10px 12px;
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        background-color: #defcf4;
+        border-radius: 100%;
+      }
+
+      .image__content__1 h4 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--text-dark);
+      }
+
+      .image__content__1 p {
+        color: var(--text-light);
+      }
+
+      .image__content__2 {
+        transform: translate(calc(-50% + 8rem), calc(-50% + 10rem));
+      }
+
+      .image__content__2 ul {
+        list-style: none;
+        display: grid;
+        gap: 1rem;
+      }
+
+      .image__content__2 li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        color: var(--text-light);
+      }
+
+      .image__content__2 span {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+      }
+
+      .search-bar {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      .search-bar input {
+        width: 60%;
+        padding: 0.75rem;
+        border: 1px solid var(--text-light);
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      /* Output Box Styling */
+      .output-box {
+        background-color: #f7fafc;
+        border: 2px solid #e2e8f0;
+        padding: 2rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+      }
+
+      .output-box h2 {
+        margin-bottom: 1rem;
+        color: var(--text-dark);
+      }
+
+      .output-box ul {
+        list-style: none;
+        padding-left: 1.5rem;
+      }
+
+      .output-box li {
+        margin-bottom: 0.5rem;
+      }
+
+      .header {
+        padding: 0 1rem;
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+      }
+      
+      @media (width < 900px) {
+        .nav__links {
+          display: none;
+        }
+
+        .header {
+          padding: 1rem;
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        .content {
+          text-align: center;
+        }
+
+        .image {
+          grid-area: 1/1/2/2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav__logo">Healthyfy</div>
+        <ul class="nav__links">
+          <li class="link"><a href="#">Home</a></li>
+          <li class="link"><a href="#">About Us</a></li>
+          <li class="link"><a href="#">Courses</a></li>
+          <li class="link"><a href="#">Pages</a></li>
+          <li class="link"><a href="#">Blog</a></li>
+          <li class="link"><a href="#">Contact</a></li>
+        </ul>
+        <form>
+          <button onclick=" type="submit">Scan Now</button>
+        </form>
+      </nav>
+      
+      <div class="search-bar">
+        <form method="POST">
+            <input type="text" placeholder="Enter the Food Name....    " name="food_name" id="food_name" required />
+            <button type="submit" class="btn">Check</button>
+        </form>
+      </div>
+
+      <!-- Display the result and replacement suggestions in a box -->
+      <div class="output-box">
+        {% if result %}
+          <h2>Search Result:</h2>
+          <p><strong>{{ result|safe }}</strong></p>
+        {% endif %}
+
+        {% if replacement_suggestions %}
+          <h2>Replacement Suggestions:</h2>
+          <ul>
+          {% for allergen, replacement in replacement_suggestions.items() %}
+              <li><strong>{{ allergen }}:</strong> {{ replacement }}</li>
+          {% endfor %}
+          </ul><br><br>
+        {% endif %}
+      </div>
+
+      <header class="header">
+        <div class="content">
+          <h1><span>Get Quick</span><br />Food Detection Services</h1>
+          <p>
+            In today's fast-paced world, having quick access to reliable health services is crucial, especially for individuals with food allergies. Prompt identification of allergens and access to medical assistance can significantly impact the outcome in cases of allergic reactions. Whether you're at home, at a restaurant, or on the go, knowing how to quickly detect allergens in food and receiving immediate medical attention can prevent serious health risks and enhance overall well-being. Our platform aims to make allergen detection easier, ensuring that you have access to expert health guidance whenever you need it.
+          </p>
+          <a href="page2.html"><button class="btn">Get Services</button></a>
+        </div>
+        <div class="image">
+          <span class="image__bg"></span><img src="img.png" alt="header image" />
+          <div class="image__content image__content__1">
+            <span><i class="ri-user-3-line"></i></span>
+            <div class="details">
+              <h4>Health Care</h4>
+              <p>Allergen Detection</p>
+            </div>
+          </div>
+          <div class="image__content image__content__2">
+            <ul>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Make a search and get the solution
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Expert Doctors Locations Suggestions
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+      <script>
+  // Function to read aloud the result text using SpeechSynthesis API
+  function readResult() {
+    const resultText = document.querySelector('.output-box p');
+    const resultTextContent = resultText ? resultText.textContent : '';
+    
+    if (resultTextContent) {
+      const utterance = new SpeechSynthesisUtterance(resultTextContent);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  // Event listener for reading the result once it's displayed
+  window.onload = function() {
+    const resultBox = document.querySelector('.output-box');
+    if (resultBox) {
+      readResult();
+    }
+  };
+
+  // Optionally, trigger the function manually when the user clicks a button
+  const readButton = document.createElement('button');
+  readButton.textContent = 'Read Result';
+  readButton.classList.add('btn');
+  document.querySelector('.output-box').appendChild(readButton);
+  
+  readButton.addEventListener('click', function() {
+    readResult();
+  });
+</script>
+
+  </body>
+</html>
