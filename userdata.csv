@@ -1,0 +1,11 @@
+User_ID,Name,Age,Gender,Allergy_List,Dietary_Restrictions
+1,Alice,28,F,"Peanuts,Butter","Gluten-Free, Vegan"
+2,Bob,35,M,"Gluten","Dairy-Free"
+3,Charlie,40,M,"Eggs","Vegetarian"
+4,David,45,M,"Soy, Dairy","None"
+5,Eva,30,F,"None","Vegan"
+6,Frank,25,M,"Dairy","Gluten-Free"
+7,Grace,50,F,"Peanuts, Dairy","Vegan"
+8,Henry,38,M,"Gluten","Vegetarian"
+9,Isla,29,F,"Soy","None"
+10,Jack,42,M,"None","Dairy-Free"

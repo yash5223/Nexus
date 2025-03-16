@@ -1,0 +1,101 @@
+User_ID,Food_ID,Food_Name,Ingredients,Barcode,Label_Information,Trigger_Foods,Reported_Symptoms
+1,1,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Sardines, Tuna, Salmon, Fish Sauce",Anaphylaxis
+2,2,Rice,Rice,012345678901,No Allergens Detected,"Cookies, Bread","Headaches, Fatigue, Digestive Issues"
+3,3,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Tahini, Hummus, Sesame Seeds",Anaphylaxis
+4,4,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Tahini, Hummus, Sesame Seeds, Sesame Oil","Swelling, Breathing Issues, Skin Rash, Anaphylaxis"
+5,5,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,Tuna,"Skin Rash, Vomiting"
+6,6,Almonds,Almonds,789012345678,Contains Tree Nuts,Shrimp,Breathing Issues
+7,7,Tahini,Sesame Seeds,901234567890,Contains Sesame,"Sardines, Tuna, Salmon","Skin Rash, Vomiting, Anaphylaxis, Hives"
+8,8,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Omelette, Cake, Egg Noodles",Nausea
+9,9,Salmon,"Salmon, Salt",890123456789,Contains Fish,Crab,"Breathing Issues, Vomiting, Anaphylaxis, Hives"
+10,10,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Omelette, Cake, Egg Noodles",Nausea
+11,11,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,Vegetables,None
+12,12,Rice,Rice,012345678901,No Allergens Detected,"Crab, Lobster, Shrimp, Oysters","Breathing Issues, Vomiting, Anaphylaxis, Hives"
+13,13,Tahini,Sesame Seeds,901234567890,Contains Sesame,Lobster,"Breathing Issues, Vomiting, Anaphylaxis, Hives"
+14,14,Almonds,Almonds,789012345678,Contains Tree Nuts,Bread,"Bloating, Headaches, Fatigue, Digestive Issues"
+15,15,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,Ice Cream,"Bloating, Nausea, Stomach Pain, Diarrhea"
+16,16,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten",Salmon,"Skin Rash, Vomiting, Anaphylaxis, Hives"
+17,17,Salmon,"Salmon, Salt",890123456789,Contains Fish,"Tofu, Miso Soup, Edamame, Soy Sauce","Skin Rash, Breathing Issues"
+18,18,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Milk, Cheese, Ice Cream","Bloating, Nausea, Diarrhea"
+19,19,Almonds,Almonds,789012345678,Contains Tree Nuts,Shrimp,"Breathing Issues, Anaphylaxis"
+20,20,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Peanut Butter, Energy Bars, Trail Mix","Breathing Issues, Anaphylaxis"
+21,21,Tahini,Sesame Seeds,901234567890,Contains Sesame,Tuna,Anaphylaxis
+22,22,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Milk, Butter",Nausea
+23,23,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Sesame Seeds, Hummus","Swelling, Skin Rash, Anaphylaxis"
+24,24,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten",Edamame,"Swelling, Itchy Throat"
+25,25,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Tahini, Hummus, Sesame Oil",Skin Rash
+26,26,Salmon,"Salmon, Salt",890123456789,Contains Fish,"Crab, Lobster, Shrimp, Oysters","Breathing Issues, Hives"
+27,27,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Almonds, Pecan Pie",Hives
+28,28,Tahini,Sesame Seeds,901234567890,Contains Sesame,Lobster,"Breathing Issues, Vomiting, Anaphylaxis, Hives"
+29,29,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Crab, Oysters, Shrimp","Vomiting, Anaphylaxis"
+30,30,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Tofu, Miso Soup, Edamame, Soy Sauce","Skin Rash, Swelling, Itchy Throat, Breathing Issues"
+31,31,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Cashews, Almonds, Pecan Pie, Walnuts","Stomach Pain, Hives"
+32,32,Rice,Rice,012345678901,No Allergens Detected,Butter,"Bloating, Nausea, Stomach Pain, Diarrhea"
+33,33,Rice,Rice,012345678901,No Allergens Detected,"Milk, Cheese, Butter, Ice Cream","Stomach Pain, Bloating"
+34,34,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,Vegetables,None
+35,35,Rice,Rice,012345678901,No Allergens Detected,"Satay Sauce, Energy Bars",Anaphylaxis
+36,36,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten",Milk,"Stomach Pain, Diarrhea"
+37,37,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Butter, Ice Cream","Stomach Pain, Nausea, Bloating, Diarrhea"
+38,38,Wheat Bread,"Wheat Flour, Yeast, Salt",345678901234,Contains Gluten,"Tofu, Miso Soup, Edamame, Soy Sauce","Skin Rash, Swelling, Breathing Issues"
+39,39,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Peanut Butter, Satay Sauce, Trail Mix","Swelling, Breathing Issues, Anaphylaxis, Hives"
+40,40,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Lobster, Oysters",Hives
+41,41,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Peanut Butter, Satay Sauce, Energy Bars, Trail Mix","Swelling, Anaphylaxis"
+42,42,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Satay Sauce, Trail Mix",Anaphylaxis
+43,43,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Peanut Butter, Energy Bars, Trail Mix","Swelling, Breathing Issues, Anaphylaxis, Hives"
+44,44,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Omelette, Egg Noodles, Mayonnaise",Stomach Cramps
+45,45,Salmon,"Salmon, Salt",890123456789,Contains Fish,"Almonds, Pecan Pie","Swelling, Stomach Pain, Anaphylaxis, Hives"
+46,46,Tahini,Sesame Seeds,901234567890,Contains Sesame,Cheese,Nausea
+47,47,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Crab, Oysters, Lobster","Breathing Issues, Vomiting, Anaphylaxis, Hives"
+48,48,Almonds,Almonds,789012345678,Contains Tree Nuts,"Cookies, Bread","Fatigue, Digestive Issues"
+49,49,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Chicken, Fruits, Rice, Vegetables",None
+50,50,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Tuna, Fish Sauce","Skin Rash, Anaphylaxis, Hives"
+51,51,Rice,Rice,012345678901,No Allergens Detected,"Tofu, Edamame, Soy Sauce","Breathing Issues, Itchy Throat"
+52,52,Salmon,"Salmon, Salt",890123456789,Contains Fish,Sardines,Anaphylaxis
+53,53,Tahini,Sesame Seeds,901234567890,Contains Sesame,"Milk, Cheese, Butter","Stomach Pain, Nausea, Bloating, Diarrhea"
+54,54,Salmon,"Salmon, Salt",890123456789,Contains Fish,Trail Mix,Breathing Issues
+55,55,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Chicken, Rice, Vegetables",None
+56,56,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Cookies, Cereal, Bread","Headaches, Digestive Issues"
+57,57,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Chicken, Fruits, Rice, Vegetables",None
+58,58,Salmon,"Salmon, Salt",890123456789,Contains Fish,"Cashews, Pecan Pie, Walnuts",Anaphylaxis
+59,59,Tahini,Sesame Seeds,901234567890,Contains Sesame,"Cookies, Pasta","Bloating, Headaches, Digestive Issues"
+60,60,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Satay Sauce, Energy Bars, Trail Mix","Swelling, Breathing Issues, Anaphylaxis, Hives"
+61,61,Almonds,Almonds,789012345678,Contains Tree Nuts,"Cookies, Pasta, Cereal","Bloating, Headaches, Fatigue, Digestive Issues"
+62,62,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Chicken, Fruits, Rice",None
+63,63,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Cashews, Almonds, Pecan Pie, Walnuts","Swelling, Anaphylaxis, Hives"
+64,64,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Cashews, Almonds, Pecan Pie, Walnuts","Stomach Pain, Swelling, Anaphylaxis"
+65,65,Almonds,Almonds,789012345678,Contains Tree Nuts,"Cashews, Pecan Pie, Walnuts","Swelling, Stomach Pain"
+66,66,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,Cashews,"Swelling, Anaphylaxis, Hives"
+67,67,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Chicken, Vegetables",None
+68,68,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,Lobster,Hives
+69,69,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Cashews, Walnuts","Stomach Pain, Swelling"
+70,70,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Peanut Butter, Energy Bars, Trail Mix","Swelling, Breathing Issues, Anaphylaxis"
+71,71,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Pasta, Cereal","Bloating, Headaches"
+72,72,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Tahini, Hummus, Sesame Seeds, Sesame Oil","Skin Rash, Swelling, Anaphylaxis, Breathing Issues"
+73,73,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Milk, Cheese, Ice Cream",Nausea
+74,74,Tahini,Sesame Seeds,901234567890,Contains Sesame,"Cake, Egg Noodles","Nausea, Rashes, Vomiting"
+75,75,Almonds,Almonds,789012345678,Contains Tree Nuts,Cookies,Fatigue
+76,76,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Bread, Pasta","Headaches, Digestive Issues"
+77,77,Wheat Bread,"Wheat Flour, Yeast, Salt",345678901234,Contains Gluten,"Milk, Cheese, Ice Cream, Butter","Stomach Pain, Nausea, Bloating, Diarrhea"
+78,78,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Tofu, Miso Soup, Edamame, Soy Sauce","Skin Rash, Breathing Issues, Itchy Throat"
+79,79,Wheat Bread,"Wheat Flour, Yeast, Salt",345678901234,Contains Gluten,"Tofu, Miso Soup, Edamame, Soy Sauce",Swelling
+80,80,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Almonds, Walnuts","Stomach Pain, Swelling, Hives"
+81,81,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Miso Soup, Edamame, Soy Sauce","Breathing Issues, Itchy Throat"
+82,82,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,Egg Noodles,Stomach Cramps
+83,83,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Peanut Butter, Satay Sauce, Energy Bars, Trail Mix","Swelling, Anaphylaxis"
+84,84,Almonds,Almonds,789012345678,Contains Tree Nuts,Chicken,None
+85,85,Salmon,"Salmon, Salt",890123456789,Contains Fish,"Tuna, Salmon, Fish Sauce","Skin Rash, Vomiting, Anaphylaxis, Hives"
+86,86,Peanut Butter,"Peanuts, Sugar, Salt",123456789012,Contains Peanuts,"Almonds, Walnuts","Swelling, Stomach Pain, Anaphylaxis, Hives"
+87,87,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Milk, Cheese, Butter, Ice Cream","Bloating, Nausea, Diarrhea"
+88,88,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Peanut Butter, Energy Bars, Trail Mix","Swelling, Breathing Issues, Anaphylaxis"
+89,89,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Lobster, Oysters, Shrimp","Vomiting, Anaphylaxis"
+90,90,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,"Sardines, Tuna, Salmon","Vomiting, Hives"
+91,91,Almonds,Almonds,789012345678,Contains Tree Nuts,Cookies,"Headaches, Digestive Issues"
+92,92,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten",Cereal,"Headaches, Digestive Issues"
+93,93,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Fruits, Vegetables",None
+94,94,Wheat Bread,"Wheat Flour, Yeast, Salt",345678901234,Contains Gluten,Peanut Butter,"Anaphylaxis, Hives"
+95,95,Omelette,"Eggs, Salt, Butter",456789012345,"Contains Eggs, Dairy","Cashews, Almonds, Pecan Pie, Walnuts","Stomach Pain, Swelling, Anaphylaxis, Hives"
+96,96,Almonds,Almonds,789012345678,Contains Tree Nuts,"Tofu, Miso Soup, Edamame, Soy Sauce","Skin Rash, Breathing Issues, Itchy Throat, Swelling"
+97,97,Shrimp,"Shrimp, Salt",678901234567,Contains Shellfish,"Omelette, Cake, Egg Noodles, Mayonnaise",Rashes
+98,98,Cheese,"Milk, Cultures, Salt, Enzymes",234567890123,Contains Dairy,Sesame Seeds,Swelling
+99,99,Soy Sauce,"Water, Soybeans, Wheat, Salt",567890123456,"Contains Soy, Gluten","Sardines, Salmon","Vomiting, Anaphylaxis, Hives"
+100,100,Tahini,Sesame Seeds,901234567890,Contains Sesame,"Cookies, Pasta, Cereal, Bread",Digestive Issues
